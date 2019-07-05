@@ -1,0 +1,21 @@
+{
+    "name": "wilsonjunior/openofficeconverter",
+    "description": "My own library to convert from ODT to PDF",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilson Junior",
+            "email": "wilsonrsajunior@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.6.12"
+    },
+	"autoload": {
+        "psr-0": {
+            "OpenOfficeConverter": "src/"
+        }
+    }
+}
